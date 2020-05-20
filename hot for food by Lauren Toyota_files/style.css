@@ -1,0 +1,55 @@
+/**
+Theme Name: HotForFood
+Author: Digital Finest
+Author URI: https://www.digitalfinest.com
+Description: Astra Child Theme by Digital Finest. 
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: hotforfood
+Template: astra
+*/
+
+/*Center Image*/
+.wp-block-image .aligncenter {
+  display:block;
+}
+/* Blog feed */
+.df-blog-feed .uael-post-wrapper img  {
+    border-radius:5px 5px 0 0 !important;
+}
+.df-blog-feed .uael-post-wrapper .uael-post__inner-wrap , .df-blog-feed .uael-post-wrapper .uael-post__content-wrap{
+     border-radius:5px !important;
+} 
+
+#comments .submit {
+    padding: 10px 40px;
+    border-radius: 10px;
+    text-transform: lowercase;
+    font-family: Montserrat, sans-serif;
+     margin-bottom:10px !important;
+}
+#comments input[type=email], #comments input[type=number], #comments input[type=password], #comments input[type=reset], #comments
+ input[type=search],#comments input[type=tel],#comments input[type=text], #comments input[type=url], #comments select, #comments textarea {
+  border-radius: 10px !important;
+}
+
+.df-testimonials a.elementor-testimonial-name {
+  padding-bottom:10px;
+}
+
+
+/*CTA hero*/
+
+.df-cta-hero .elementor-cta__description , .df-cta-hero h2{
+  font-family: Oswald, sans-serif !important;
+  font-weight: bold !important;
+  font-size: 40px !important;
+  line-height:40px !important;
+}
+@media screeen and (max-width:740px) {
+  .df-cta-hero .elementor-cta__description , .df-cta-hero h2{
+  font-size: 30px !important;
+  line-height:35px !important;
+}
+}
